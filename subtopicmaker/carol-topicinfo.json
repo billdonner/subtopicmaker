@@ -1,0 +1,180 @@
+{
+    "description": "Topic Info Database",
+    "version": "1.0.2",
+    "author": "Bill Donner",
+    "date": "jan  2024",
+    "topics": [
+        {
+            "name": "Tv_Quotes_And_Shows",
+            "subject": "Tv_Quotes_And_Shows",
+            "pic": "brain.head.profile",
+            "notes": "tbd",
+            "subtopics": [
+                "1960S_Tv_Catchphrases",
+                "Best_Lines_From_Hulu_Series",
+                "Best_Lines_From_Tv_2010S",
+                "Best_Lines_From_Tv_In_The_1950S",
+                "Best_Lines_From_Tv_Shows_-_1980S",
+                "Best_Lines_From_Tv_Shows_In_The_2010S",
+                "Best_Tv_1970S_Lines",
+                "Best_Tv_Lines",
+                "Best_Tv_Lines_1990S",
+                "Best_Tv_Lines_2000S",
+                "Best_Tv_Quotes_1940S",
+                "Best_Tv_Quotes_2000S",
+                "Best_Tv_Shows_Of_The_1940S",
+                "Best_Tv_Shows_Of_The_1960S",
+                "Classic_Tv_Quotes_Of_The_1960S",
+                "Funniest_Lines_From_Tv_1950S",
+                "Funniest_Tv_Lines_From_The_1950S",
+                "Hulu_Series_Quotes",
+                "Tv_1970S",
+                "Tv_1990S",
+                "Tv_Shows_1960S",
+                "Tv_Theme_Songs_Of_The_1960S"
+            ]
+        },
+        {
+            "name": "Comedians_By_Decade",
+            "subject": "Comedians_By_Decade",
+            "pic": "brain.head.profile",
+            "notes": "tbd",
+            "subtopics": [
+                "Comedians_Of_The_1930S",
+                "Comedians_Of_The_1940S",
+                "Comedians_Of_The_1950S",
+                "Comedians_Of_The_1960S",
+                "Comedians_Of_The_1970S",
+                "Comedians_Of_The_1980S",
+                "Comedians_Of_The_1990S",
+                "Comedians_Of_The_2000S",
+                "Comedians_Of_The_2010S"
+            ]
+        },
+        {
+            "name": "Artists_By_Nationality_And_Period",
+            "subject": "Artists_By_Nationality_And_Period",
+            "pic": "brain.head.profile",
+            "notes": "tbd",
+            "subtopics": [
+                "Arabic_Artists_Of_1700S",
+                "Arabic_Artists_Of_1800S",
+                "Chinese_Artists_Of_1700S",
+                "Chinese_Artists_Of_1800S",
+                "Dutch_Artists_Of_1700S",
+                "Dutch_Artists_Of_1800S",
+                "French_Artists_Of_1700S",
+                "French_Artists_Of_1800S",
+                "German_Artists_Of_1800S",
+                "Indian_Artists_Of_1700S",
+                "Indian_Artists_Of_1800S",
+                "Italian_Artists_1700S",
+                "Italian_Artists_Of_The_1400S",
+                "Italian_Artists_Of_The_1700S",
+                "Japanese_Artists_Of_1700S",
+                "Japanese_Artists_Of_1800S",
+                "Mexican_Artists_Of_1700S",
+                "Mexican_Artists_Of_1800S",
+                "South_American_Artists_Of_The_1700S",
+                "South_American_Artists_Of_The_1800S",
+                "Spanish_Artists_Of_1700S",
+                "Spanish_Artists_Of_1800S",
+                "Spanish_Artists_Of_The_1700S"
+            ]
+        },
+        {
+            "name": "Movies_By_Decade",
+            "subject": "Movies_By_Decade",
+            "pic": "brain.head.profile",
+            "notes": "tbd",
+            "subtopics": [
+                "Movies",
+                "Movies1910S",
+                "Movies_1920S",
+                "Movies_1960S",
+                "Movies_1970S",
+                "Movies_1980S",
+                "Movies_1990S",
+                "Movies_2000S",
+                "Movies_In_The_1950S",
+                "Movies_Of_The_1980S",
+                "Movies_Of_The_2010S"
+            ]
+        },
+        {
+            "name": "Historical_Events_By_Decade",
+            "subject": "Historical_Events_By_Decade",
+            "pic": "brain.head.profile",
+            "notes": "tbd",
+            "subtopics": [
+                "Major_Events_Of_The_1800S",
+                "Major_Events_Of_The_1810S",
+                "Major_Events_Of_The_1820S",
+                "Major_Events_Of_The_1830S",
+                "Major_Events_Of_The_1840S",
+                "Major_Events_Of_The_1850S",
+                "Major_Events_Of_The_1860S",
+                "Major_Events_Of_The_1870S",
+                "Major_Events_Of_The_1880S",
+                "Major_Events_Of_The_1890S",
+                "Major_Events_Of_The_1900S",
+                "Major_Events_Of_The_1910S",
+                "Major_Events_Of_The_1920S",
+                "Major_Events_Of_The_1930S",
+                "Major_Events_Of_The_1940S",
+                "Major_Events_Of_The_1950S",
+                "Major_Events_Of_The_1960S",
+                "Major_Events_Of_The_1970S",
+                "Major_Events_Of_The_1980S",
+                "Major_Events_Of_The_1990S"
+            ]
+        },
+        {
+            "name": "Food_Dishes",
+            "subject": "Food_Dishes",
+            "pic": "brain.head.profile",
+            "notes": "tbd",
+            "subtopics": [
+                "Bread",
+                "Chicken_Dishes",
+                "Fish_Dishes",
+                "Hors_D'oeuvres",
+                "Lamb_Dishes",
+                "Salads",
+                "Shellfish_Dishes",
+                "Steak_Dishes",
+                "Veal_Dishes",
+                "Vegetable_Dishes"
+            ]
+        },
+        {
+            "name": "Movie_And_Tv_Series_Providers",
+            "subject": "Movie_And_Tv_Series_Providers",
+            "pic": "brain.head.profile",
+            "notes": "tbd",
+            "subtopics": [
+                "Netflix_Series"
+            ]
+        },
+        {
+            "name": "Music_Periods",
+            "subject": "Music_Periods",
+            "pic": "brain.head.profile",
+            "notes": "tbd",
+            "subtopics": [
+                "1920S_Music",
+                "Music_1910S",
+                "Music_1930S",
+                "Music_1950S",
+                "Music_1960S",
+                "Music_1990S",
+                "Music_2000S",
+                "Music_2010S",
+                "Music_In_The_1940S",
+                "Music_Of_The_1920S",
+                "Music_Of_The_1970S",
+                "Music_Of_The_1980S"
+            ]
+        }
+    ]
+}

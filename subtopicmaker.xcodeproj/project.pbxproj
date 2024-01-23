@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		888B84D62B604E9F0055D71F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888B84D52B604E9F0055D71F /* main.swift */; };
+		888B84DF2B6050220055D71F /* q20kshare in Frameworks */ = {isa = PBXBuildFile; productRef = 888B84DE2B6050220055D71F /* q20kshare */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,9 @@
 /* Begin PBXFileReference section */
 		888B84D22B604E9F0055D71F /* subtopicmaker */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = subtopicmaker; sourceTree = BUILT_PRODUCTS_DIR; };
 		888B84D52B604E9F0055D71F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		888B84DC2B604EB10055D71F /* carols-subtopics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "carols-subtopics.swift"; sourceTree = "<group>"; };
+		888B84E02B6059330055D71F /* carol-topicinfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "carol-topicinfo.json"; sourceTree = "<group>"; };
+		888B84E12B6059A70055D71F /* carol-topicinfo copy.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "carol-topicinfo copy.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				888B84DF2B6050220055D71F /* q20kshare in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,7 +62,10 @@
 		888B84D42B604E9F0055D71F /* subtopicmaker */ = {
 			isa = PBXGroup;
 			children = (
+				888B84DC2B604EB10055D71F /* carols-subtopics.swift */,
 				888B84D52B604E9F0055D71F /* main.swift */,
+				888B84E12B6059A70055D71F /* carol-topicinfo copy.json */,
+				888B84E02B6059330055D71F /* carol-topicinfo.json */,
 			);
 			path = subtopicmaker;
 			sourceTree = "<group>";
@@ -78,6 +86,9 @@
 			dependencies = (
 			);
 			name = subtopicmaker;
+			packageProductDependencies = (
+				888B84DE2B6050220055D71F /* q20kshare */,
+			);
 			productName = subtopicmaker;
 			productReference = 888B84D22B604E9F0055D71F /* subtopicmaker */;
 			productType = "com.apple.product-type.tool";
@@ -106,6 +117,9 @@
 				Base,
 			);
 			mainGroup = 888B84C92B604E9F0055D71F;
+			packageReferences = (
+				888B84DD2B6050220055D71F /* XCRemoteSwiftPackageReference "q20kshare" */,
+			);
 			productRefGroup = 888B84D32B604E9F0055D71F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -289,6 +303,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		888B84DD2B6050220055D71F /* XCRemoteSwiftPackageReference "q20kshare" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/billdonner/q20kshare";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.23;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		888B84DE2B6050220055D71F /* q20kshare */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 888B84DD2B6050220055D71F /* XCRemoteSwiftPackageReference "q20kshare" */;
+			productName = q20kshare;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 888B84CA2B604E9F0055D71F /* Project object */;
 }
