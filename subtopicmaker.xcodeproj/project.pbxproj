@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		888B84D62B604E9F0055D71F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888B84D52B604E9F0055D71F /* main.swift */; };
 		888B84DF2B6050220055D71F /* q20kshare in Frameworks */ = {isa = PBXBuildFile; productRef = 888B84DE2B6050220055D71F /* q20kshare */; };
+		888B84E52B615AAF0055D71F /* ArgumentParser in Frameworks */ = {isa = PBXBuildFile; productRef = 888B84E42B615AAF0055D71F /* ArgumentParser */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,9 +27,7 @@
 /* Begin PBXFileReference section */
 		888B84D22B604E9F0055D71F /* subtopicmaker */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = subtopicmaker; sourceTree = BUILT_PRODUCTS_DIR; };
 		888B84D52B604E9F0055D71F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		888B84DC2B604EB10055D71F /* carols-subtopics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "carols-subtopics.swift"; sourceTree = "<group>"; };
-		888B84E02B6059330055D71F /* carol-topicinfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "carol-topicinfo.json"; sourceTree = "<group>"; };
-		888B84E12B6059A70055D71F /* carol-topicinfo copy.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "carol-topicinfo copy.json"; sourceTree = "<group>"; };
+		888B84E22B6068570055D71F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				888B84E52B615AAF0055D71F /* ArgumentParser in Frameworks */,
 				888B84DF2B6050220055D71F /* q20kshare in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,6 +46,7 @@
 		888B84C92B604E9F0055D71F = {
 			isa = PBXGroup;
 			children = (
+				888B84E22B6068570055D71F /* README.md */,
 				888B84D42B604E9F0055D71F /* subtopicmaker */,
 				888B84D32B604E9F0055D71F /* Products */,
 			);
@@ -62,10 +63,7 @@
 		888B84D42B604E9F0055D71F /* subtopicmaker */ = {
 			isa = PBXGroup;
 			children = (
-				888B84DC2B604EB10055D71F /* carols-subtopics.swift */,
 				888B84D52B604E9F0055D71F /* main.swift */,
-				888B84E12B6059A70055D71F /* carol-topicinfo copy.json */,
-				888B84E02B6059330055D71F /* carol-topicinfo.json */,
 			);
 			path = subtopicmaker;
 			sourceTree = "<group>";
@@ -88,6 +86,7 @@
 			name = subtopicmaker;
 			packageProductDependencies = (
 				888B84DE2B6050220055D71F /* q20kshare */,
+				888B84E42B615AAF0055D71F /* ArgumentParser */,
 			);
 			productName = subtopicmaker;
 			productReference = 888B84D22B604E9F0055D71F /* subtopicmaker */;
@@ -119,6 +118,7 @@
 			mainGroup = 888B84C92B604E9F0055D71F;
 			packageReferences = (
 				888B84DD2B6050220055D71F /* XCRemoteSwiftPackageReference "q20kshare" */,
+				888B84E32B615AAF0055D71F /* XCRemoteSwiftPackageReference "swift-argument-parser" */,
 			);
 			productRefGroup = 888B84D32B604E9F0055D71F /* Products */;
 			projectDirPath = "";
@@ -313,6 +313,14 @@
 				minimumVersion = 0.5.23;
 			};
 		};
+		888B84E32B615AAF0055D71F /* XCRemoteSwiftPackageReference "swift-argument-parser" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-argument-parser.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -320,6 +328,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 888B84DD2B6050220055D71F /* XCRemoteSwiftPackageReference "q20kshare" */;
 			productName = q20kshare;
+		};
+		888B84E42B615AAF0055D71F /* ArgumentParser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 888B84E32B615AAF0055D71F /* XCRemoteSwiftPackageReference "swift-argument-parser" */;
+			productName = ArgumentParser;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
