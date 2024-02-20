@@ -1,6 +1,6 @@
 #  SubtopicMaker - utility to build topic-info.json
 
-version 0.1.0 - initial release
+version 0.1.1 - initial release
 
 takes a structure produced by gpt-4 from a list of detailed topics via:
 

@@ -16,7 +16,9 @@ import q20kshare
    please output the revised list  as a json dictionary*/
 
 
-let version = "0.1.0"
+
+
+let version = "0.1.1"
 
 struct Mapping : Codable  {
   let key:String
@@ -52,7 +54,7 @@ struct SubtopicMaker: ParsableCommand {
   mutating func run() throws {
   
     let contents = try String(contentsOf: URL(fileURLWithPath: input))
-    print(">SubtopicMaker read \(contents.count) from \(input)")
+    print(">SubtopicMaker read \(contents.count) bytes from \(input)")
     let xyz = try JSONDecoder().decode([String:[String]].self,from:contents.data(using:.utf8)!)
     let header = """
 {
@@ -89,6 +91,7 @@ struct SubtopicMaker: ParsableCommand {
     if obuf.count > 0 {
       try obuf.write(to:URL(fileURLWithPath: output),atomically:false,encoding: .utf8)
       print(">SubtopicMaker wrote \(obuf.count) bytes to \(output)")
+      print(">Tip:  Xpando -t \(output) ...")
     }
   }
 }
