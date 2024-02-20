@@ -91,7 +91,7 @@ struct SubtopicMaker: ParsableCommand {
     if obuf.count > 0 {
       try obuf.write(to:URL(fileURLWithPath: output),atomically:false,encoding: .utf8)
       print(">SubtopicMaker wrote \(obuf.count) bytes to \(output)")
-      print(">Tip:  Xpando -t \(output) ...")
+      print(">Tip --> Xpando -t \(output) ...")
     }
   }
 }
